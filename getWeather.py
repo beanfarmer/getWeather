@@ -1,12 +1,18 @@
 #!/bin/env python3
+#
+# beanfarmer 2018 - no licence
+# grabs the temp and main weather info from openweathermap's api you will need
+# an api_key and a lat/long, formatted response to stdout
+#
+#
 import requests
 import json
 
 
 degree_sign = u'\N{DEGREE SIGN}'
-latt = '51.644917'
-lon = '-3.219768'
-api_key = 'cd9ded6a4b9a0c305d1310c7360a33d7'
+latt = 'enter your lat'
+lon = 'enter your long'
+api_key = 'enter your api_key'
 
 
 def getweather():
